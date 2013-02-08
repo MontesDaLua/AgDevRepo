@@ -1,0 +1,3 @@
+This repo contains the necessary code to install in the local dir the necessaries Python/Django APPS 
+
+to use it , just run scripts/init.sh and configure the starting APPS 
