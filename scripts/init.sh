@@ -16,7 +16,7 @@ else
   curl http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py > bootstrap.py
 fi
 echo "running bootstrap.py"
-python bootstrap.py $*
+python bootstrap.py --version=1.5.2 $*
 echo "running buildout"
 bin/buildout
 echo "done"
